@@ -1,0 +1,26 @@
+{
+  "name": "ip-info",
+  "version": "1.0.0",
+  "description": "CLI tool to get IP address geolocation, ISP, reverse DNS, and WHOIS data",
+  "main": "dist/index.js",
+  "bin": {
+    "ip-info": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "ip",
+    "geolocation",
+    "whois",
+    "dns",
+    "cli"
+  ],
+  "author": "Zakaria Kone",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}
